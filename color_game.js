@@ -85,46 +85,7 @@ function reset(){
   h1.style.backgroundColor = "steelblue";
   resetButton.textContent = "New Colors";
   messageDisplay.textContent = "";
-
-
 }
-// easyBtn.addEventListener('click' , function(){
-//   hardBtn.classList.remove("selected");
-//   easyBtn.classList.add("selected");
-//   numOfSquares = 3;
-//   colors = generateRandomColors(numOfSquares);
-//   pickedColor = pickColor();
-//   colorDisplay.textContent = pickedColor;
-//   for (let i = 0; i < squares.length; i++){
-//     if(colors[i]){
-//       squares[i].style.backgroundColor = colors[i];
-//
-//     }else{
-//       squares[i].style.display = "none";
-//     }
-//
-//   };
-//
-// });
-//
-// hardBtn.addEventListener('click' , function(){
-//   hardBtn.classList.add("selected");
-//   easyBtn.classList.remove("selected");
-//   numOfSquares = 6;
-//   colors = generateRandomColors(numOfSquares);
-//   pickedColor = pickColor();
-//   colorDisplay.textContent = pickedColor;
-//   for (let i = 0; i < squares.length; i++){
-//
-//       squares[i].style.backgroundColor = colors[i];
-//
-//       squares[i].style.display = "block";
-//     };
-//
-// });
-
-
-
 
 resetButton.addEventListener("click", function(){
   reset();
@@ -155,8 +116,6 @@ function generateRandomColors(num){
   return arr;
   //return that array
 }
-
-
 
 function randomColor(){
   // pick a red from 0-255
